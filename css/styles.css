@@ -134,6 +134,49 @@ body {
 }
 
 
+
+.bulletin {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #ebfdf6c1;
+  border-radius: 5px;
+}
+
+.bulletin h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.bulletin h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.bulletin p {
+  margin-bottom: 10px;
+}
+
+.bulletin ul {
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.bulletin ul li {
+  position: relative;
+  list-style: none;
+  padding-left: 20px;
+  margin-bottom: 5px;
+}
+
+.bulletin ul li:before {
+  content: "\2192";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #333;
+}
+
 /* /////////////////what we do  */
 .business-development-section {
   text-align: center;
@@ -1070,7 +1113,7 @@ width: 58%;
     width: 90%;
     height: auto;
     margin-left: 1.75rem;
-    display: hidden;
+    display: none;
     justify-content: center;
   }
   .hero {
@@ -1339,7 +1382,7 @@ width: 58%;
    height: auto;
    margin-left: 1.75rem;
    justify-content: center;
-   /* display: none; */
+   display: none;
   }
   .hero {
     margin-left: 27px;
@@ -1466,7 +1509,7 @@ width: 58%;
   }
   .rect {
     /* width: 55%; */
-    display: hidden;
+    display: none;
   }
   .hero {
    margin-left: -1.35rem;
